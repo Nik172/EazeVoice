@@ -1,0 +1,15 @@
+torch>=2.0
+torchaudio
+transformers>=4.35.0
+accelerate
+datasets
+librosa
+soundfile
+numpy
+jiwer
+whisper @ git+https://github.com/openai/whisper.git
+gradio
+gTTS
+noisereduce
+webrtcvad
+ffmpeg-python
