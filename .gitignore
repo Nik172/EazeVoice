@@ -9,3 +9,90 @@ __pycache__/
 
 # Ignore VS Code settings
 .vscode/
+# -----------------------------
+# 🧠 Python + Virtual Env
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# -----------------------------
+# 🧪 Jupyter / Colab
+# -----------------------------
+.ipynb_checkpoints/
+*.ipynb_save
+*.ipynb~*
+*.ipynb_checkpoints/
+
+# -----------------------------
+# 🧰 VS Code
+# -----------------------------
+.vscode/
+*.code-workspace
+
+# -----------------------------
+# 🔊 Data & Audio
+# -----------------------------
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.ogg
+*.zip
+*.tar
+*.gz
+*.7z
+data/
+datasets/
+torgo_local/
+torgo_prepared_FULL/
+train_wavs/
+val_wavs/
+test_wavs/
+audio/
+raw_data/
+
+# -----------------------------
+# 💾 Model Checkpoints & Outputs
+# -----------------------------
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+*.onnx
+output/
+outputs/
+checkpoints/
+logs/
+runs/
+wandb/
+tensorboard/
+whisper-torgo-lora/
+whisper_small_lora_test/
+whisper_models/
+cache/
+hf_cache/
+huggingface/
+
+# -----------------------------
+# ⚙️ OS / Misc
+# -----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
+*.bak
+*.swp
+*.swo
+*.orig
